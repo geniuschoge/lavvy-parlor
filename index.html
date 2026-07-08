@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavy Beauty Parlor · Premium Hair & Beauty in Kondele, Kisumu</title>
+    <meta name="description" content="Professional hair braiding, styling & beauty services in Kondele, Kisumu. Expert stylists, transparent pricing, stunning transformations.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="progressBar"></div>
+
+    <header>
+        <nav class="navbar" id="navbar">
+            <a href="#" class="logo">
+                <div class="logo-icon"><i class="fas fa-spa"></i></div>
+                <span class="logo-text">Lavy<span> Beauty</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pricing">Prices</a></li>
+                <li><a href="#before-after">Transformations</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#ceo">CEO</a></li>
+                <li><a href="#location">Find Us</a></li>
+                <li><a href="#contact" class="nav-cta">Book Now</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <canvas id="heroCanvas"></canvas>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">✦ Kondele, Kisumu ✦</span>
+            <h1>Welcome to <span class="accent">Lavy Beauty</span> Parlor</h1>
+            <p class="tagline">Where Beauty Meets Elegance</p>
+            <p>Premium hair styling, expert braiding & transformative beauty services — all in the heart of Kisumu.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/254790314809?text=Hi%20Lavy%20Beauty%20Parlor,%20I%20want%20to%20book%20an%20appointment" class="btn-primary" target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                </a>
+                <a href="#pricing" class="btn-outline">
+                    <i class="fas fa-list-ul"></i> View Prices
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span><span></span><span></span>
+        </div>
+    </section>
+
+    <section class="section why-us" id="why-us">
+        <div class="section-header">
+            <span class="label">Why Lavy Beauty</span>
+            <h2>The Lavy Difference</h2>
+            <div class="ornament-divider"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+            <p class="subtitle">We don't just style hair — we craft confidence with every strand.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card"><div class="feature-icon"><i class="fas fa-crown"></i></div><h4>Expert Stylists</h4><p>5+ years of mastery in braiding, weaving & natural hair care.</p></div>
+            <div class="feature-card"><div class="feature-icon"><i class="fas fa-heart"></i></div><h4>Gentle Care</h4><p>We treat your hair & scalp with the tenderness they deserve.</p></div>
+            <div class="feature-card"><div class="feature-icon"><i class="fas fa-star"></i></div><h4>Premium Products</h4><p>Only top-quality products for lasting, radiant results.</p></div>
+            <div class="feature-card"><div class="feature-icon"><i class="fas fa-clock"></i></div><h4>Timely Service</h4><p>We value your time — punctual, efficient, and thorough.</p></div>
+        </div>
+    </section>
+
+    <section class="section pricing" id="pricing">
+        <div class="section-header">
+            <span class="label">Our Rates</span>
+            <h2>Style Menu & Pricing</h2>
+            <div class="ornament-divider"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+            <p class="subtitle">Transparent pricing. Stunning results. All styles start from KES 2,000.</p>
+        </div>
+        <div class="price-grid">
+            <!-- All images use direct Unsplash URLs that work -->
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1605980776566-2046c2f1c60e?w=400&h=300&fit=crop" alt="Knotless Braids" loading="lazy">
+                <div class="price-info"><h4>Knotless Braids</h4><p>Seamless, lightweight finish</p><span class="price-tag">KES 4,500</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=300&fit=crop" alt="Box Braids" loading="lazy">
+                <div class="price-info"><h4>Box Braids</h4><p>Classic & versatile</p><span class="price-tag">KES 3,500</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1509130446564-5b191eee7398?w=400&h=300&fit=crop" alt="Butterfly Locs" loading="lazy">
+                <div class="price-info"><h4>Butterfly Locs</h4><p>Trendy distressed locs</p><span class="price-tag">KES 4,000</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1485290334039-a3c69043e517?w=400&h=300&fit=crop" alt="Senegalese Twists" loading="lazy">
+                <div class="price-info"><h4>Senegalese Twists</h4><p>Sleek rope twists</p><span class="price-tag">KES 3,800</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&h=300&fit=crop" alt="Passion Twists" loading="lazy">
+                <div class="price-info"><h4>Passion Twists</h4><p>Soft & romantic curls</p><span class="price-tag">KES 3,500</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=400&h=300&fit=crop" alt="Fulani Braids" loading="lazy">
+                <div class="price-info"><h4>Fulani Braids</h4><p>Cultural elegance</p><span class="price-tag">KES 3,200</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?w=400&h=300&fit=crop" alt="Weave Installation" loading="lazy">
+                <div class="price-info"><h4>Weave Installation</h4><p>Full sew-in with closure</p><span class="price-tag">KES 3,200</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1585751119414-ef2636f8d6e5?w=400&h=300&fit=crop" alt="Wig Installation" loading="lazy">
+                <div class="price-info"><h4>Wig Installation</h4><p>Custom fit & styling</p><span class="price-tag">KES 3,000</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=300&fit=crop" alt="Crochet Braids" loading="lazy">
+                <div class="price-info"><h4>Crochet Braids</h4><p>Quick & full volume</p><span class="price-tag">KES 2,800</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1605980776566-2046c2f1c60e?w=400&h=300&fit=crop" alt="Ghana Weaving" loading="lazy">
+                <div class="price-info"><h4>Ghana Weaving</h4><p>Cornrow artistry</p><span class="price-tag">KES 2,500</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1485290334039-a3c69043e517?w=400&h=300&fit=crop" alt="Twist Braids" loading="lazy">
+                <div class="price-info"><h4>Twist Braids</h4><p>Two-strand elegance</p><span class="price-tag">KES 2,500</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1509130446564-5b191eee7398?w=400&h=300&fit=crop" alt="Dreadlocks Styling" loading="lazy">
+                <div class="price-info"><h4>Dreadlocks Styling</h4><p>Retwist & styling</p><span class="price-tag">KES 2,500</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=400&h=300&fit=crop" alt="Bantu Knots" loading="lazy">
+                <div class="price-info"><h4>Bantu Knots</h4><p>Traditional chic</p><span class="price-tag">KES 2,000</span></div>
+            </div>
+            <div class="price-card">
+                <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&h=300&fit=crop" alt="Cornrows" loading="lazy">
+                <div class="price-info"><h4>Cornrows</h4><p>Simple & neat lines</p><span class="price-tag">KES 2,000</span></div>
+            </div>
+        </div>
+        <p class="price-note">* Prices may vary slightly depending on hair length, density & additional styling requests.<br>📍 All services available at our Kondele, Kisumu location.</p>
+    </section>
+
+    <section class="section before-after" id="before-after">
+        <div class="section-header">
+            <span class="label">Transformations</span>
+            <h2>Before & After Magic</h2>
+            <div class="ornament-divider"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+            <p class="subtitle">Drag the slider to see the incredible difference we make.</p>
+        </div>
+        <div class="ba-grid">
+            <div class="ba-card">
+                <div class="ba-comparison">
+                    <div class="ba-after"><img src="https://images.unsplash.com/photo-1605980776566-2046c2f1c60e?w=400&h=300&fit=crop" alt="After knotless braids"></div>
+                    <div class="ba-before"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=300&fit=crop" alt="Before braiding"></div>
+                    <div class="ba-handle"><div class="handle-line"></div><div class="handle-circle"><i class="fas fa-arrows-left-right"></i></div></div>
+                </div>
+                <div class="ba-info"><h4>Knotless Braids</h4><span>KES 4,500 · 4 hours</span></div>
+            </div>
+            <div class="ba-card">
+                <div class="ba-comparison">
+                    <div class="ba-after"><img src="https://images.unsplash.com/photo-1509130446564-5b191eee7398?w=400&h=300&fit=crop" alt="After butterfly locs"></div>
+                    <div class="ba-before"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=300&fit=crop" alt="Before styling"></div>
+                    <div class="ba-handle"><div class="handle-line"></div><div class="handle-circle"><i class="fas fa-arrows-left-right"></i></div></div>
+                </div>
+                <div class="ba-info"><h4>Butterfly Locs</h4><span>KES 4,000 · 5 hours</span></div>
+            </div>
+            <div class="ba-card">
+                <div class="ba-comparison">
+                    <div class="ba-after"><img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?w=400&h=300&fit=crop" alt="After weave install"></div>
+                    <div class="ba-before"><img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&h=300&fit=crop" alt="Before weave"></div>
+                    <div class="ba-handle"><div class="handle-line"></div><div class="handle-circle"><i class="fas fa-arrows-left-right"></i></div></div>
+                </div>
+                <div class="ba-info"><h4>Weave Installation</h4><span>KES 3,200 · 3 hours</span></div>
+            </div>
+            <div class="ba-card">
+                <div class="ba-comparison">
+                    <div class="ba-after"><img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=400&h=300&fit=crop" alt="After Fulani braids"></div>
+                    <div class="ba-before"><img src="https://images.unsplash.com/photo-1485290334039-a3c69043e517?w=400&h=300&fit=crop" alt="Before Fulani braids"></div>
+                    <div class="ba-handle"><div class="handle-line"></div><div class="handle-circle"><i class="fas fa-arrows-left-right"></i></div></div>
+                </div>
+                <div class="ba-info"><h4>Fulani Braids</h4><span>KES 3,200 · 4.5 hours</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section work-gallery" id="gallery">
+        <div class="section-header">
+            <span class="label">Our Portfolio</span>
+            <h2>Showcase of Styles</h2>
+            <div class="ornament-divider"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+            <p class="subtitle">Click any photo to view full size — every style a masterpiece.</p>
+        </div>
+        <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1605980776566-2046c2f1c60e?w=400&h=500&fit=crop" alt="Braided hairstyle" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=500&fit=crop" alt="Elegant weave" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1509130446564-5b191eee7398?w=400&h=500&fit=crop" alt="Knotless braids" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1485290334039-a3c69043e517?w=400&h=500&fit=crop" alt="Butterfly locs" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=400&h=500&fit=crop" alt="Fulani braids" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&h=500&fit=crop" alt="Passion twists" loading="lazy">
+        </div>
+    </section>
+
+    <section class="section team" id="team">
+        <div class="section-header">
+            <span class="label">Meet Our Stylists</span>
+            <h2>The Hands Behind the Magic</h2>
+            <div class="ornament-divider"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+            <p class="subtitle">Five passionate professionals dedicated to making you look & feel stunning.</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop" alt="Achieng Jane" class="team-avatar" loading="lazy"><h4>Achieng Jane</h4><span class="role">Master Stylist</span></div>
+            <div class="team-card"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop" alt="Mercy Akinyi" class="team-avatar" loading="lazy"><h4>Mercy Akinyi</h4><span class="role">Braiding Specialist</span></div>
+            <div class="team-card"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop" alt="Faith Atieno" class="team-avatar" loading="lazy"><h4>Faith Atieno</h4><span class="role">Weave Expert</span></div>
+            <div class="team-card"><img src="https://images.unsplash.com/photo-1554151228-14d9f6560c63?w=200&h=200&fit=crop" alt="Diana Adhiambo" class="team-avatar" loading="lazy"><h4>Diana Adhiambo</h4><span class="role">Natural Hair Stylist</span></div>
+            <div class="team-card"><img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200&h=200&fit=crop" alt="Brenda Awuor" class="team-avatar" loading="lazy"><h4>Brenda Awuor</h4><span class="role">Junior Stylist</span></div>
+        </div>
+    </section>
+
+    <section class="section ceo-section" id="ceo">
+        <div class="section-header">
+            <span class="label">Founder & CEO</span>
+            <h2>Meet the Visionary</h2>
+            <div class="ornament-divider"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+        </div>
+        <div class="ceo-card">
+            <div class="ceo-avatar-wrap">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=300&fit=crop" alt="Lavender - CEO Lavy Beauty" class="ceo-avatar" loading="lazy">
+                <div class="ceo-badge"><i class="fas fa-crown"></i></div>
+            </div>
+            <div class="ceo-info">
+                <h3>Lavender Achieng'</h3>
+                <p class="ceo-title">CEO & Founder — Lavy Beauty Parlor</p>
+                <div class="ceo-detail"><i class="fas fa-phone-alt"></i><a href="tel:+254790314809">0790 314 809</a></div>
+                <div class="ceo-detail"><i class="fas fa-envelope"></i><a href="mailto:lavender@lavybeauty.co.ke">lavender@lavybeauty.co.ke</a></div>
+                <div class="ceo-detail"><i class="fas fa-map-marker-alt"></i><span>Kondele, Kisumu</span></div>
+                <p class="ceo-quote">"Empowering beauty, one hairstyle at a time."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section location" id="location">
+        <div class="section-header">
+            <span class="label">Find Us</span>
+            <h2>Visit Our Parlor</h2>
+            <div class="ornament-divider"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+            <p class="subtitle">Right in the heart of Kondele, Kisumu — easily accessible & welcoming.</p>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.752!2d34.7686!3d-0.0917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMDUnMzAuMCJTIDM0wrA0NScwNy4wIkU!5e0!3m2!1sen!2ske!4v1715000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lavy Beauty Parlor - Kondele, Kisumu"></iframe>
+        </div>
+        <div class="location-details">
+            <div class="location-detail"><i class="fas fa-map-pin"></i> Kondele, Kisumu</div>
+            <div class="location-detail"><i class="fas fa-phone-alt"></i> 0790 314 809</div>
+            <div class="location-detail"><i class="fas fa-clock"></i> Mon–Sat: 8am–8pm | Sun: 10am–6pm</div>
+        </div>
+    </section>
+
+    <section class="section social-section" id="contact">
+        <div class="section-header">
+            <span class="label">Connect With Us</span>
+            <h2>Let's Stay in Touch</h2>
+            <div class="ornament-divider"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+            <p class="subtitle">Follow, message, or book — we're just a tap away on your favorite platform.</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://wa.me/254790314809?text=Hi%20Lavy%20Beauty%20Parlor,%20I%20want%20to%20book%20an%20appointment" class="social-icon-link whatsapp" target="_blank" rel="noopener"><i class="fab fa-whatsapp fa-lg"></i> WhatsApp</a>
+            <a href="https://instagram.com/lavybeautyparlor" class="social-icon-link instagram" target="_blank" rel="noopener"><i class="fab fa-instagram fa-lg"></i> Instagram</a>
+            <a href="https://tiktok.com/@lavybeautyparlor" class="social-icon-link tiktok" target="_blank" rel="noopener"><i class="fab fa-tiktok fa-lg"></i> TikTok</a>
+            <a href="mailto:lavender@lavybeauty.co.ke" class="social-icon-link email-link"><i class="fas fa-envelope fa-lg"></i> Email Us</a>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-brand">Lavy Beauty Parlor</p>
+        <p>📍 Kondele, Kisumu &nbsp;|&nbsp; 📞 <a href="tel:+254790314809">0790 314 809</a></p>
+        <p style="margin-top:6px;">&copy; 2026 Lavy Beauty Parlor. All Rights Reserved.</p>
+        <p class="footer-credit">Designed with ❤️ for the love of beauty.</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close" id="lightboxClose">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <button id="backToTop" title="Back to top"><i class="fas fa-chevron-up"></i></button>
+    <a href="https://wa.me/254790314809?text=Hi%20Lavy%20Beauty%20Parlor,%20I%20want%20to%20book%20an%20appointment" class="floating-whatsapp" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
